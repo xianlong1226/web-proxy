@@ -1,0 +1,13 @@
+{
+    "port": 4000,
+    "views": "views",
+    "pages":[
+        {"url":"/index","path":"index.html"},
+        {"url":"/test/index","path":"test/index.html"}
+    ],
+    "staticFiles":[
+        {"url":"/css","path":"/public/css"},
+        {"url":"/js","path":"/public/js"},
+        {"url":"/images","path":"/public/images"}
+    ]
+}
