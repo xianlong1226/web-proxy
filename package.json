@@ -1,25 +1,28 @@
 {
-  "name": "webproxy",
-  "version": "0.0.1",
-  "description": "web前端服务代理",
-  "main": "app.js",
-  "scripts": {
-    "test": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xianlong1226/web-proxy.git"
-  },
-  "keywords": [
-    "web",
-    "proxy"
-  ],
-  "author": "zengxianlong1226@163.com",
-  "license": "ISC",
-  "devDependencies": {
-    "ejs": "^2.5.5",
-    "express": "^4.14.1",
-    "http-proxy-middleware": "^0.17.3",
-    "morgan": "^1.8.1"
-  }
+	"name": "webproxy",
+	"version": "0.0.1",
+	"description": "web前端服务代理",
+	"main": "app.js",
+	"scripts": {
+		"test": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xianlong1226/web-proxy.git"
+	},
+	"keywords": [
+		"web",
+		"proxy"
+	],
+	"author": "zengxianlong1226@163.com",
+	"license": "ISC",
+	"devDependencies": {
+
+	},
+	"dependencies": {
+		"ejs": "^2.5.5",
+		"express": "^4.14.1",
+		"http-proxy-middleware": "^0.17.3",
+		"morgan": "^1.8.1"
+	}
 }
